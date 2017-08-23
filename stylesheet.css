@@ -19,3 +19,11 @@ body {
     background-image: url(assets/forrest.jpg);
     /*background-image: url(http://img.timeinc.net/time/photoessays/2008/trees/franklin_trees_01.jpg);*/
 }
+
+
+/*adding this because no bootstrap-social css for Medium icon*/
+.btn-medium {
+  color: #fff;
+  background-color: purple;
+  border-color: rgba(0,0,0,0.2);
+}
