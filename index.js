@@ -125,7 +125,7 @@ var count = 0; //count needs to be outside of function rotateWord
 
 function rotateWord() {
   var current_word = words[count]; // define the word to create
-  console.log(current_word);
+  // console.log(current_word);
   $("#rotate_word").html(current_word); // change the word in the HTML
   count++; // Increase the wordcount
   if (count == words.length) { count = 0; } // if the wordcount is greater than the total, reset it.
