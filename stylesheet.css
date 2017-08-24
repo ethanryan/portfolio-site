@@ -46,7 +46,7 @@ body {
   width: 300px;
   margin: 0 auto;
   /*background-image: url("https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/dog-medium-landing-hero.ashx");*/
-  background-image: url("assets/profile_pic_Ethan_Ryan_brady_bunch_3.jpg");
+  background-image: url("assets/profile_pic_Ethan_Ryan_brady_bunch.jpg");
 }
 
 #profile-pic::after{
@@ -59,7 +59,7 @@ body {
     height: 100%;
     z-index: 1;
     /*background-image: url("https://www.petfinder.com/wp-content/uploads/2012/11/152964589-welcome-home-new-cat-632x475.jpg");*/
-    background-image: url("assets/profile_pic_Ethan_Ryan_3.jpg");
+    background-image: url("assets/profile_pic_Ethan_Ryan.jpg");
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
