@@ -2,7 +2,6 @@
 body {
   min-height: 75rem;
   padding-top: 4.5rem;
-  padding-top: 70px; 
 }
 
 /*parallax effect*/
@@ -21,6 +20,11 @@ body {
     /*background-image: url(http://img.timeinc.net/time/photoessays/2008/trees/franklin_trees_01.jpg);*/
 }
 
+
+#rotate_word_container {
+  height: 300px;
+  min-height: 300px; /*height and min-height so changing words don't make site jump up and down*/
+}
 
 /*adding this because no bootstrap-social css for Medium icon*/
 .btn-medium {
