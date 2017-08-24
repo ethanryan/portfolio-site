@@ -33,6 +33,61 @@ body {
   border-color: rgba(0,0,0,0.2);
 }
 
+
+/* border animation around profile picture??? */
+/* border animation around profile picture??? */
+/* border animation around profile picture??? */
+
+
+/* rotating profile pictures */
+#profile-pic {
+  position:relative;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  /*background-image: url("https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/dog-medium-landing-hero.ashx");*/
+  background-image: url("assets/profile_pic_Ethan_Ryan_brady_bunch_3.jpg");
+}
+
+#profile-pic::after{
+  content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    /*background-image: url("https://www.petfinder.com/wp-content/uploads/2012/11/152964589-welcome-home-new-cat-632x475.jpg");*/
+    background-image: url("assets/profile_pic_Ethan_Ryan_3.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+@keyframes profile-pic-change {
+  0% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#profile-pic::after {
+animation-name: profile-pic-change;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+
 /*email-address changes color and moves in a square*/
 .email-address {
     width: 100%;
