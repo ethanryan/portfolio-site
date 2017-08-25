@@ -1,7 +1,14 @@
 /* fixing navbar to the top */
 body {
   min-height: 75rem;
-  padding-top: 4.5rem;
+  /*padding-top: 4.5rem;*/
+  padding-top: 70px;
+}
+
+/* overriding default jumbotron on mobile so all my pages show top of page on mobile */
+/* since all my pages are wrapped in jumbotron */
+.jumbotron {
+  padding-top: 70px;
 }
 
 /*parallax effect*/
@@ -38,7 +45,7 @@ body {
 
 .shimmer {
   display: inline-block;
-  color: white;
+  /*color: green;*/
   /*background: black -webkit-gradient(linear, 100% 0, 0 0, from(black), color-stop(0.5, #ffffff), to(black));*/
   /*background: #292b2c -webkit-gradient(linear, 100% 0, 0 0, from(#292b2c), color-stop(0.5, #ffffff), to(#292b2c));*/
   background: #292b2c -webkit-gradient(linear, 100% 0, 0 0, from(#292b2c), color-stop(0.5, #ffffff), to(#292b2c));
@@ -63,6 +70,37 @@ body {
         background-position: 15.5rem top; /*~240px*/
     }
 }
+
+
+
+/*shimmer on brand in navbar, will replace this with a different effect eventually */
+.shimmer-brand {
+  display: inline-block;
+  /*background: black -webkit-gradient(linear, 100% 0, 0 0, from(black), color-stop(0.5, #ffffff), to(black));*/
+  /*background: #292b2c -webkit-gradient(linear, 100% 0, 0 0, from(#292b2c), color-stop(0.5, #ffffff), to(#292b2c));*/
+  background: #ffffff -webkit-gradient(linear, 100% 0, 0 0, from(yellow), color-stop(0.5, purple), to(yellow));
+  background-position: -4rem top; /*50px*/
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation-name: shimmer;
+  -webkit-animation-duration: 2.2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-background-size: 4rem 100%; /*50px*/
+}
+
+@-webkit-keyframes shimmer {
+    0% {
+        background-position: -4rem top; /*50px*/
+    }
+    70% {
+        background-position: 15.5rem top; /*~240px*/
+    }
+    100% {
+        background-position: 15.5rem top; /*~240px*/
+    }
+}
+
 
 
 /* rotating profile pictures */
