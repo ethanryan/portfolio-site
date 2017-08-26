@@ -23,7 +23,11 @@ body {
 }
 
 .background-forrest {
-    background-image: url(assets/forrest.jpg);
+    /*background-image: url(assets/forrest.jpg);*/
+    background-image: url(assets/data-web-gif.gif);
+
+/*making this background image for now so it looks ok on mobile*/
+
     /*background-image: url(http://img.timeinc.net/time/photoessays/2008/trees/franklin_trees_01.jpg);*/
 }
 
