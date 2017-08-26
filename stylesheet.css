@@ -14,10 +14,11 @@ body {
 /*parallax effect*/
 .background {
     width: 100%;
-    height: 300px;
+    height: 500px;
     /*may want to remove or change height 300px, or set it on each image*/
     min-height: 100%;
     background-attachment: fixed;
+    /*background-size: auto;*/
     background-size: cover;
     background-position: center center;
 }
