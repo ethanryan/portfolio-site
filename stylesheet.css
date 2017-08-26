@@ -226,3 +226,16 @@ animation-direction: alternate;
   min-width: 100%;
   height: 32rem;
 }
+
+
+/* screen size changing image, below */
+
+/*small*/
+@media screen and (max-width: 767px) {
+
+    .background-forrest {
+      /*background: url(assets/data-lady-glitch-gif.gif);*/
+      background: url(assets/data-web-gif.gif);
+      min-height: 500px;
+  }
+}
