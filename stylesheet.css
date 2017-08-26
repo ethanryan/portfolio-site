@@ -3,6 +3,7 @@ body {
   min-height: 75rem;
   /*padding-top: 4.5rem;*/
   padding-top: 70px;
+  position: relative; /*need this for scrollspy on navbar*/
 }
 
 /* overriding default jumbotron on mobile so all my pages show top of page on mobile */
