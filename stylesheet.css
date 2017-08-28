@@ -38,6 +38,44 @@ body {
     background-image: url(assets/data-lady-glitch-gif.gif);
 }
 
+.background-forrest {
+    background-image: url(assets/forrest.jpg);
+}
+
+.background-forrest-upside-down {
+    background-image: url(assets/forrest-upside-down.jpg);
+}
+
+.background-clouds-gif {
+    background-image: url(assets/clouds-gif.gif);
+}
+
+/*next*/
+
+.background-oh-my-god-glitch-gif {
+    background-image: url(assets/oh-my-god-glitch-gif.gif);
+}
+
+.background-tearing-colors-gif {
+    background-image: url(assets/tearing-colors-gif.gif);
+}
+
+/*next*/
+
+.background-underwater-gif {
+    background-image: url(assets/underwater-gif.gif);
+}
+
+.background-pool-gif {
+    background-image: url(assets/pool-gif.gif);
+}
+
+/*next*/
+
+.background-drought {
+    background-image: url(assets/drought.jpg);
+}
+
 
 #rotate_word_container {
   height: 300px;
@@ -237,19 +275,27 @@ animation-direction: alternate;
 /*small*/
 @media screen and (max-width: 767px) {
   .background-data-web-gif {
-    /*background: url(assets/data-lady-glitch-gif.gif);*/
     background: url(assets/data-web-gif.gif);
     /* ---on small screens above is background, not background-image--- */
     background-size: cover;
   }
 
   .background-white-on-black-data-gif {
-      background-image: url(assets/white-on-black-data-gif.gif);
+      background: url(assets/white-on-black-data-gif.gif);
+      /* ---on small screens above is background, not background-image--- */
       background-size: cover;
+      /*max-height: 200px;*/
   }
 
   .background-data-lady-glitch-gif {
-      background-image: url(assets/data-lady-glitch-gif.gif);
+      background: url(assets/data-lady-glitch-gif.gif);
+      /* ---on small screens above is background, not background-image--- */
       background-size: cover;
+      height: 260px;
+      /*max-height: 360px;*/
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: pink;
+      background-repeat: no-repeat;
   }
 }
