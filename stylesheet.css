@@ -18,6 +18,9 @@ body {
     width: 100%;
     height: 100%;
     /*min-width: 100%;*/
+    background-image: url(assets/data-web-gif.gif);
+/*delete image from here*/
+
     background-attachment: fixed;
     /*fixed background-attachment is what gives the image the parallax effect*/
     background-repeat: no-repeat;
@@ -33,10 +36,10 @@ body {
     /*making this background image for now so it looks ok on mobile*/
     min-height: 550px;
     background-size: cover;
-    position: relative;
+    /*position: relative;*/
     /*trying this*/
-    max-width: 100%;
-    height: auto;
+    /*max-width: 100%;*/
+    /*height: auto;*/
 }
 
 
@@ -240,39 +243,8 @@ animation-direction: alternate;
   .background-forrest {
     /*background: url(assets/data-lady-glitch-gif.gif);*/
     background: url(assets/data-web-gif.gif);
+    /* ---on small screens above is background, not background-image--- */
     /*min-height: 600px;*/
-    /*background-size: contain;*/
-    background-size: cover;
-  }
-}
-
-/*medium*/
-@media screen and (min-width: 768px) {
-  .background-forrest {
-    /*background: url(assets/data-lady-glitch-gif.gif);*/
-    background: url(assets/data-web-gif.gif);
-    /*min-height: 600px;*/
-    /*background-size: contain;*/
-    background-size: cover;
-  }
-}
-
-/*large*/
-@media screen and (min-width: 992px) {
-  .background-forrest {
-    /*background: url(assets/data-lady-glitch-gif.gif);*/
-    background: url(assets/data-web-gif.gif);
-    min-height: 600px;
-    background-size: cover;
-  }
-}
-
-/*extra-large*/
-@media screen and (min-width: 1200px) {
-  .background-forrest {
-    /*background: url(assets/data-lady-glitch-gif.gif);*/
-    background: url(assets/data-web-gif.gif);
-    min-height: 600px;
     background-size: cover;
   }
 }
