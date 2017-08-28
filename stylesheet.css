@@ -30,10 +30,10 @@ body {
 .background-forrest {
     /*background-image: url(assets/forrest.jpg);*/
     background-image: url(assets/data-web-gif.gif);
+    /*making this background image for now so it looks ok on mobile*/
     min-height: 550px;
-/*making this background image for now so it looks ok on mobile*/
-
-    /*background-image: url(http://img.timeinc.net/time/photoessays/2008/trees/franklin_trees_01.jpg);*/
+    background-size: contain;
+    position: relative;
 }
 
 
@@ -228,10 +228,25 @@ animation-direction: alternate;
 
 /*small*/
 @media screen and (max-width: 767px) {
+  .background-forrest {
+    /*background: url(assets/data-lady-glitch-gif.gif);*/
+    background: url(assets/data-web-gif.gif);
+    min-height: 600px;
+    background-size: contain;
 
-    .background-forrest {
-      /*background: url(assets/data-lady-glitch-gif.gif);*/
-      background: url(assets/data-web-gif.gif);
-      min-height: 500px;
+  }
+}
+
+/*medium*/
+@media screen and (min-width: 768px) {
+  .background-forrest {
+    /*background: url(assets/data-lady-glitch-gif.gif);*/
+    background: url(assets/data-web-gif.gif);
+    min-height: 600px;
+    background-size: contain;
+
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+
   }
 }
