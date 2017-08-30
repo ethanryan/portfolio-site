@@ -38,6 +38,8 @@ body {
     background-image: url(assets/data-lady-glitch-gif.gif);
 }
 
+/*next*/
+
 .background-forrest {
     background-image: url(assets/forrest.jpg);
 }
@@ -68,6 +70,10 @@ body {
 
 .background-pool-gif {
     background-image: url(assets/pool-gif.gif);
+}
+
+.background-purple-jellyfish-gif {
+    background-image: url(assets/purple-jellyfish-gif.gif);
 }
 
 /*next*/
@@ -284,6 +290,7 @@ animation-direction: alternate;
       background: url(assets/white-on-black-data-gif.gif);
       /* ---on small screens above is background, not background-image--- */
       background-size: cover;
+      min-height: 350px;
       /*max-height: 200px;*/
   }
 
@@ -297,5 +304,58 @@ animation-direction: alternate;
       background-position: center;
       background-color: pink;
       background-repeat: no-repeat;
+  }
+
+  .background-oh-my-god-glitch-gif {
+      background: url(assets/oh-my-god-glitch-gif.gif);
+      min-height: 350px;
+      background-size: cover;
+  }
+
+  .background-tearing-colors-gif {
+      background: url(assets/tearing-colors-gif.gif);
+      min-height: 350px;
+      background-size: cover;
+  }
+
+  .background-forrest {
+      background: url(assets/forrest.jpg);
+      min-height: 350px;
+      background-size: cover;
+  }
+
+  .background-forrest-upside-down {
+      background: url(assets/forrest-upside-down.jpg);
+      min-height: 350px;
+      background-size: cover;
+  }
+
+  .background-clouds-gif {
+      background: url(assets/clouds-gif.gif);
+      min-height: 350px;
+      background-size: cover;
+  }
+
+  .background-underwater-gif {
+      background: url(assets/underwater-gif.gif);
+      min-height: 350px;
+      background-size: cover;
+  }
+
+  .background-pool-gif {
+      background: url(assets/pool-gif.gif);
+      min-height: 350px;
+      background-size: cover;
+  }
+
+  .background-purple-jellyfish-gif {
+      background: url(assets/purple-jellyfish-gif.gif);
+      background-size: cover;
+  }
+
+  .background-drought {
+      background: url(assets/drought.jpg);
+      min-height: 350px;
+      background-size: cover;
   }
 }
