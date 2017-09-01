@@ -7,7 +7,7 @@ $('.navbar-nav>li>a').on('click', function(){
 // Define initial variables.
 var words = [
 "a full stack web developer",
-"inventive",
+"innovative",
 "capable",
 "a good listener",
 "resourceful",
