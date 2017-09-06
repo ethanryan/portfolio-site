@@ -142,15 +142,16 @@ function rotateWord() {
 rotateWord();
 
 
+
+
 //clicking skills removes two classes and adds a class
 
-$('#skills-list span').click(function(e) {
-    $(this).removeClass('hoverSkill pulse-grow');
-    $(this).addClass('clicked-skill');
-    console.log('hello, '+ this.className)
+$("#skills-list span").click(function(e) {
+    $(this).removeClass("hoverSkill pulse-grow");
+    $(this).addClass("clicked-skill");
 
-    	if ( ! $("#skills-list span").hasClass("hoverSkill pulse-grow")) {
- 	 //console.log('you win!!!')
-   document.getElementById("you-win").innerHTML = "You WIN!";
+  if ( ! $("#skills-list span").hasClass("hoverSkill pulse-grow")) {
+   $("#you-win").addClass("email-address"); //for colorful background
+   $("#you-win").html("You WIN!");
 	}
 });

@@ -208,23 +208,33 @@ animation-direction: alternate;
 }
 
 
+/*--------- keeping arrow on hover over skills -----------*/
+#skills-list {
+  cursor: default;
+  padding: 50px;
+  border: 10px solid gray;
+  background-color: black;
+  /*border-radius: 15px;*/
+}
+
 /*--------- changing skills on hover -----------*/
 
 /* changing skill color on hover */
+.hoverSkill {background: yellow;}
 .hoverSkill:hover {background: red;}
 
 /* Pulse Grow */
  @-webkit-keyframes pulse-grow {
     to {
-        -webkit-transform: scale(2.1);
-        transform: scale(2.1);
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
     }
 }
 @keyframes pulse-grow {
     to {
-        -webkit-transform: scale(2.1);
-        -ms-transform: scale(2.1);
-        transform: scale(2.1);
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
     }
 }
 .pulse-grow {
@@ -234,7 +244,8 @@ animation-direction: alternate;
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-.pulse-grow:hover {
+/*.pulse-grow:hover {*/
+.pulse-grow {
     -webkit-animation-name: pulse-grow;
     animation-name: pulse-grow;
     -webkit-animation-duration: 0.3s;
@@ -251,13 +262,13 @@ animation-direction: alternate;
 .clicked-skill {
   color: white;
   background-color: black;
+  padding: 3px;
 }
 
 /*email-address changes color and moves in a square*/
 .email-address {
     width: 100%;
     height: 100%;
-    /*background-color: red;*/
     position: relative;
     animation-name: email-address; /*references animation below*/
     animation-duration: 4s;
