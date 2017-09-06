@@ -214,14 +214,20 @@ animation-direction: alternate;
   padding: 50px;
   border: 10px solid gray;
   background-color: black;
-  /*border-radius: 15px;*/
 }
 
 /*--------- changing skills on hover -----------*/
 
 /* changing skill color on hover */
-.hoverSkill {background: yellow;}
-.hoverSkill:hover {background: red;}
+.yellowSkill {
+  background: yellow;
+  border: 2px solid green;
+  padding: 5px;
+  border-radius: 25px;
+  margin: 5px;
+}
+
+.yellowSkill:hover {background: red;}
 
 /* Pulse Grow */
  @-webkit-keyframes pulse-grow {
@@ -258,11 +264,13 @@ animation-direction: alternate;
     animation-direction: alternate;
 }
 
-/* adding clicked-skill when each skill is clicked, and removing hoverSkill and pulse-grow */
+/* adding clicked-skill when each skill is clicked, and removing yellowSkill and pulse-grow */
 .clicked-skill {
   color: white;
   background-color: black;
-  padding: 3px;
+  border: 2px solid green;
+  border-radius: 25px;
+  margin: 5px;
 }
 
 /*email-address changes color and moves in a square*/

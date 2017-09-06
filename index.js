@@ -147,10 +147,10 @@ rotateWord();
 //clicking skills removes two classes and adds a class
 
 $("#skills-list span").click(function(e) {
-    $(this).removeClass("hoverSkill pulse-grow");
+    $(this).removeClass("yellowSkill pulse-grow");
     $(this).addClass("clicked-skill");
 
-  if ( ! $("#skills-list span").hasClass("hoverSkill pulse-grow")) {
+  if ( ! $("#skills-list span").hasClass("yellowSkill pulse-grow")) {
    $("#you-win").addClass("email-address"); //for colorful background
    $("#you-win").html("You WIN!");
 	}
