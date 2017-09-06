@@ -263,7 +263,7 @@ animation-direction: alternate;
   position: inherit;
   border: 10px solid;
   /*background-size: cover;*/
-  background: blue;
+  background: gray;
   width: 100%;
 }
 
