@@ -106,13 +106,13 @@ body {
 /* skills image --- FOR NOW --------------- <<<<<< ------- */
 /* skills image --- FOR NOW --------------- <<<<<< ------- */
 .background-data-lady-glitch-gif-2 {
-    width: 100%;
+    /*width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: black;
-    min-height: 350px;
+    min-height: 350px;*/
     background-image: url(assets/data-lady-glitch-gif.gif);
 }
 
@@ -244,18 +244,27 @@ animation-direction: alternate;
 #skills-list {
   cursor: default;
   padding: 50px;
-  border: 10px solid gray;
+  /*border: 10px solid gray;*/
   background-color: black;
 
-  width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: black;
   min-height: 350px;
-  /*background-image: url(assets/data-lady-glitch-gif.gif);*/
-  background-image: url("assets/school-of-fish-gif.gif");
+  /*background-image: url(assets/school-of-fish-gif.gif);*/
+}
+
+
+.you-win {
+  line-height: 8;
+  font-size: 20px;
+  position: inherit;
+  border: 10px solid;
+  /*background-size: cover;*/
+  background: blue;
+  width: 100%;
 }
 
 /*--------- changing skills on hover -----------*/
