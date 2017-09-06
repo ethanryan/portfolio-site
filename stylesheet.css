@@ -247,6 +247,11 @@ animation-direction: alternate;
     animation-direction: alternate;
 }
 
+/* adding clicked-skill when each skill is clicked, and removing hoverSkill and pulse-grow */
+.clicked-skill {
+  color: white;
+  background-color: black;
+}
 
 /*email-address changes color and moves in a square*/
 .email-address {

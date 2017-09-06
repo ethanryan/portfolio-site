@@ -140,3 +140,17 @@ function rotateWord() {
   setTimeout(rotateWord, 2000); // repeat the function after 2000 milliseconds (2 seconds).
 }
 rotateWord();
+
+
+//clicking skills removes two classes and adds a class
+
+$('#skills-list span').click(function(e) {
+    $(this).removeClass('hoverSkill pulse-grow');
+    $(this).addClass('clicked-skill');
+    console.log('hello, '+ this.className)
+
+    	if ( ! $("#skills-list span").hasClass("hoverSkill pulse-grow")) {
+ 	 //console.log('you win!!!')
+   document.getElementById("you-win").innerHTML = "You WIN!";
+	}
+});
