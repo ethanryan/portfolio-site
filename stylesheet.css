@@ -194,7 +194,7 @@ body {
 
 /* rotating profile pictures */
 #profile-pic {
-  position:relative;
+  position: relative;
   height: 300px;
   width: 300px;
   margin: 0 auto;
@@ -246,7 +246,16 @@ animation-direction: alternate;
   padding: 50px;
   border: 10px solid gray;
   background-color: black;
-  background: url("assets/school-of-fish-gif.gif");
+
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  min-height: 350px;
+  /*background-image: url(assets/data-lady-glitch-gif.gif);*/
+  background-image: url("assets/school-of-fish-gif.gif");
 }
 
 /*--------- changing skills on hover -----------*/
