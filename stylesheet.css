@@ -93,6 +93,12 @@ body {
     background-image: url(assets/skills.svg);
 }
 
+
+.background-school-of-fish-gif {
+    background-image: url(assets/school-of-fish-gif.gif);
+}
+
+
 /* skills image --- FOR NOW --------------- <<<<<< ------- */
 /* skills image --- FOR NOW --------------- <<<<<< ------- */
 /* skills image --- FOR NOW --------------- <<<<<< ------- */
@@ -240,6 +246,7 @@ animation-direction: alternate;
   padding: 50px;
   border: 10px solid gray;
   background-color: black;
+  background: url("assets/school-of-fish-gif.gif");
 }
 
 /*--------- changing skills on hover -----------*/
