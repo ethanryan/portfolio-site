@@ -151,7 +151,8 @@ $("#skills-list span").click(function(e) {
     $(this).addClass("clicked-skill");
 
   if ( ! $("#skills-list span").hasClass("yellowSkill pulse-grow")) {
-   $("#you-win").addClass("email-address"); //for colorful background
-   $("#you-win").html("You WIN!");
+   $("#skills-list").addClass("colorful-text"); //for colorful background
+   $(".you-win").html("You WIN!").addClass("colorful-text"); //for colorful background
+   $(".winning-image").html("").addClass("background-data-lady-glitch-gif-2");
 	}
 });
