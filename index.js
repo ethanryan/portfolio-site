@@ -153,6 +153,7 @@ $("#skills-list span").click(function(e) {
   if ( ! $("#skills-list span").hasClass("yellowSkill pulse-grow")) {
    $("#skills-list").addClass("colorful-text background-fireworks-gif");
    $("#skills-list span").addClass("clicked-skill-after-winning");
-   $(".you-win").html("You WIN!").addClass("colorful-text");
+   $(".you-win span").html("You WIN!").addClass("shimmer");
+   $(".you-win").addClass("background-gradient");
 	}
 });
