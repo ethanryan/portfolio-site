@@ -83,38 +83,16 @@ body {
 }
 
 /* default skills image */
-.background-skills-default {
-    /*height: 50%;*/
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: black;
-    min-height: 350px;
-    background-image: url(assets/skills.svg);
-}
-
 
 .background-school-of-fish-gif {
     background-image: url(assets/school-of-fish-gif.gif);
 }
 
-
-/* skills image --- FOR NOW --------------- <<<<<< ------- */
-/* skills image --- FOR NOW --------------- <<<<<< ------- */
-/* skills image --- FOR NOW --------------- <<<<<< ------- */
-/* skills image --- FOR NOW --------------- <<<<<< ------- */
-/* skills image --- FOR NOW --------------- <<<<<< ------- */
-/* skills image --- FOR NOW --------------- <<<<<< ------- */
-.background-data-lady-glitch-gif-2 {
-    /*width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: black;
-    min-height: 350px;*/
-    background-image: url(assets/data-lady-glitch-gif.gif);
+/* after clicking all skills */
+.background-fireworks-gif {
+  background-image: url(assets/fireworks-gif.gif);
 }
+
 
 
 #rotate_word_container {
@@ -253,17 +231,15 @@ animation-direction: alternate;
   background-size: cover;
   background-color: black;
   min-height: 350px;
-  /*background-image: url(assets/school-of-fish-gif.gif);*/
 }
 
-
+/*--------- above and below skills after winning -----------*/
 .you-win {
-  line-height: 8;
-  font-size: 20px;
+  line-height: 4;
+  font-size: 60px;
   position: inherit;
   border: 10px solid;
-  /*background-size: cover;*/
-  background: gray;
+  background: cornflowerblue;
   width: 100%;
 }
 
@@ -321,12 +297,22 @@ animation-direction: alternate;
 
 /* adding clicked-skill when each skill is clicked, and removing yellowSkill and pulse-grow */
 .clicked-skill {
-  /*color: white;*/
-  /*border: 2px solid green;*/
   border: 2px dotted;
   padding: 10px;
   border-radius: 25px;
   line-height: 4;
+}
+
+.clicked-skill-after-winning {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 25px;
+  line-height: 6;
+  color: white;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #FF0000;
+  /*background: rgba(255, 255, 255, 0.5);*/
+  background: black;
 }
 
 /* colorful-text changes color */
