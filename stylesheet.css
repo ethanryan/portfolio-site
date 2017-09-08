@@ -94,6 +94,11 @@ body {
 }
 
 
+/* contact page background color matches nerd gif background color */
+#contact {
+  background-color: #f6fcff;
+}
+
 
 #rotate_word_container {
   height: 300px;
@@ -220,9 +225,10 @@ animation-direction: alternate;
 
 /*--------- keeping arrow on hover over skills -----------*/
 #skills-list {
-  cursor: default;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  cursor: default; /*default is the arrow*/
+
+  /*padding-top: 10%;*/
+  /*padding-bottom: 10%;*/
   background-color: black;
   height: 100%;
   background-repeat: no-repeat;
@@ -258,6 +264,7 @@ animation-direction: alternate;
 }
 
 .yellowSkill:hover {
+  cursor: pointer; /*pointer is the hand*/
   color: white;
   background: linear-gradient(to bottom, red, black);
   border: 2px solid yellow;
@@ -313,7 +320,7 @@ animation-direction: alternate;
 }
 
 .clicked-skill-after-winning {
-  border: 1px solid yellow;
+  border: 2px solid yellow;
   border-radius: 25px;
   /*line-height: 6;*/
   color: white;
@@ -432,6 +439,11 @@ animation-direction: alternate;
       background-size: cover;
   }
 
+  #skills-list {
+    /*padding-top: 15%; */
+    /*greater top padding on small screen*/
+  }
+
   .yellowSkill {
     border: 2px solid purple;
     font-size: 12px; /*smaller text on small screens so skills are readable*/
@@ -440,6 +452,5 @@ animation-direction: alternate;
   .clicked-skill-after-winning {
     border: 2px solid purple;
     font-size: 16px;
-    background: linear-gradient(to bottom right, red, yellow);
   }
 }
