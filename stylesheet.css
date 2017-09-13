@@ -175,6 +175,18 @@ body {
 
 
 
+
+/* explosion onclick */
+/*.explode {
+  width: 100px;
+  height: 100px;
+  background: red;
+}*/
+/*explosion on click above*/
+
+
+
+
 /* rotating profile pictures */
 #profile-pic {
   position: relative;
@@ -239,19 +251,41 @@ animation-direction: alternate;
 }
 
 /*--------- above and below skills after winning -----------*/
-.you-win-area {
+.you-win-area-top {
   padding-top: 65px;
   padding-bottom: 65px;
   font-size: 50px;
   background-position: center;
   background-size: cover;
-  border: 1px solid;
-  background: cornflowerblue;
+  background: linear-gradient(to bottom, #eceeef, #c9d6ff);
+}
+
+.you-win-area-bottom {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  font-size: 50px;
+  background-position: center;
+  background-size: cover;
+  background: linear-gradient(to bottom, #c9d6ff, #eceeef);
 }
 
 .background-gradient {
   background: linear-gradient(to bottom right, red, yellow);
 }
+
+
+.background-blue {
+  background: linear-gradient(to bottom, #0275d8, #0275d8);
+}
+
+.background-blue-top {
+  background: linear-gradient(to bottom, #eceeef, #0275d8);
+}
+
+.background-blue-bottom {
+  background: linear-gradient(to top, #eceeef, #0275d8);
+}
+
 
 
 /* changing skill color on hover */

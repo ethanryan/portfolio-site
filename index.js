@@ -153,7 +153,68 @@ $("#skills-list span").click(function(e) {
   if ( ! $("#skills-list span").hasClass("yellowSkill pulse-grow")) {
    $("#skills-list").addClass("colorful-text background-fireworks-gif");
    $("#skills-list span").addClass("clicked-skill-after-winning");
-   $(".you-win-area").addClass("background-gradient");
-   $(".you-win-area span").html("You WIN!").addClass("shimmer");
+   $(".you-win-area-top").addClass("background-gradient");
+   $(".you-win-area-bottom").addClass("background-gradient");
+   $(".you-win-area-top span").html("You WIN!").addClass("shimmer");
+   $(".rotate_encourangement").removeClass("rotate_encourangement");
+   $(".you-win-area-bottom span").html("Skills").addClass("shimmer");
+   //alert("hi");
+   changeFireworks();
 	}
 });
+
+//calling this function to change fireworks 9 seconds after showing them
+function changeFireworks() {
+     setTimeout(function(){
+     $("#skills-list").addClass("background-blue");
+     $(".you-win-area-top").addClass("background-blue-top");
+     $(".you-win-area-bottom").addClass("background-blue-bottom");
+   },9000)
+}
+
+//rotate words for skills page
+// Define initial variables.
+var encouragement = [
+"You can do it!",
+"You're doing great!",
+"Keep clicking!",
+"Almost done!",
+"Incredible!",
+"Wow, I'm impressed.",
+"Nice clicking.",
+"Keep it up!",
+"Almost done!",
+"Good job.",
+"Still clicking?",
+"Aren't you done yet?",
+"Are you OK?",
+"It's not that hard.",
+"Just do it.",
+"Come on.",
+"You got this.",
+"Ah, forget it.",
+"Nevermind.",
+"Oh my God!",
+];
+var count_Encouragement = 0; //count_Encouragement needs to be outside of function rotateWord
+
+function rotateEncouragement() {
+  var current_word = encouragement[count_Encouragement]; // define the word to create
+  // console.log(current_word);
+  $(".rotate_encourangement").html(current_word); // change the word in the HTML
+  count_Encouragement++; // Increase the wordcount
+  if (count_Encouragement == encouragement.length) { count_Encouragement = 0; } // if the wordcount is greater than the total, reset it.
+  setTimeout(rotateEncouragement, 4000); // repeat the function after 4000 milliseconds (4 seconds).
+}
+rotateEncouragement();
+
+
+
+
+
+
+//code for exploding popping bubble...
+
+// $( '.explode' ).click(function(e) {
+//   $( this ).toggle( 'explode' );
+// });
