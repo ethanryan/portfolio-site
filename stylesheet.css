@@ -275,15 +275,15 @@ animation-direction: alternate;
 
 
 .background-blue {
-  background: linear-gradient(to bottom, #0275d8, #0275d8);
+  background: linear-gradient(to bottom, #c9d6ff, #c9d6ff);
 }
 
 .background-blue-top {
-  background: linear-gradient(to bottom, #eceeef, #0275d8);
+  background: linear-gradient(to bottom, #eceeef, #c9d6ff);
 }
 
 .background-blue-bottom {
-  background: linear-gradient(to top, #eceeef, #0275d8);
+  background: linear-gradient(to top, #eceeef, #c9d6ff);
 }
 
 
@@ -487,4 +487,12 @@ animation-direction: alternate;
     border: 2px solid purple;
     font-size: 16px;
   }
+}
+
+.hidden-icon {
+  display: none;
+}
+
+.hidden-text {
+  display: none;
 }

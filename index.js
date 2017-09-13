@@ -163,13 +163,18 @@ $("#skills-list span").click(function(e) {
 	}
 });
 
-//calling this function to change fireworks 9 seconds after showing them
+//calling this function to change fireworks 6 seconds after showing them
 function changeFireworks() {
      setTimeout(function(){
      $("#skills-list").addClass("background-blue");
+
+     $("#skills-list svg").removeClass("hidden-icon");
+     $("#skills-list span").addClass("hidden-text");
+
+
      $(".you-win-area-top").addClass("background-blue-top");
      $(".you-win-area-bottom").addClass("background-blue-bottom");
-   },9000)
+ }, 6000)
 }
 
 //rotate words for skills page
