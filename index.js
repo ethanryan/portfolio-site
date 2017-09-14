@@ -158,20 +158,17 @@ $("#skills-list span").click(function(e) {
    $(".you-win-area-top span").html("You WIN!").addClass("shimmer");
    $(".rotate_encourangement").removeClass("rotate_encourangement");
    $(".you-win-area-bottom span").html("Skills").addClass("shimmer");
-   //alert("hi");
    changeFireworks();
 	}
 });
 
-//calling this function to change fireworks 6 seconds after showing them
+//change fireworks 6 seconds after showing them
 function changeFireworks() {
      setTimeout(function(){
      $("#skills-list").addClass("background-blue");
-
      $("#skills-list svg").removeClass("hidden-icon");
      $("#skills-list span").addClass("hidden-text");
-
-
+     $(".you-win-area-top span").html("Skills").addClass("shimmer");
      $(".you-win-area-top").addClass("background-blue-top");
      $(".you-win-area-bottom").addClass("background-blue-bottom");
  }, 6000)
