@@ -4,6 +4,7 @@ body {
   /*padding-top: 4.5rem;*/
   padding-top: 70px;
   position: relative; /*need this for scrollspy on navbar*/
+  background-color: #eceeef; /* instead of white */
 }
 
 /* overriding default jumbotron on mobile so all my pages show top of page on mobile */
@@ -238,9 +239,6 @@ animation-direction: alternate;
 /*--------- keeping arrow on hover over skills -----------*/
 #skills-list {
   cursor: default; /*default is the arrow*/
-
-  /*padding-top: 10%;*/
-  /*padding-bottom: 10%;*/
   background-color: black;
   height: 100%;
   background-repeat: no-repeat;
@@ -252,8 +250,8 @@ animation-direction: alternate;
 
 /*--------- above and below skills after winning -----------*/
 .you-win-area-top {
-  padding-top: 65px;
-  padding-bottom: 65px;
+  padding-top: 55px;
+  padding-bottom: 55px;
   font-size: 50px;
   background-position: center;
   background-size: cover;
@@ -261,8 +259,8 @@ animation-direction: alternate;
 }
 
 .you-win-area-bottom {
-  padding-top: 65px;
-  padding-bottom: 65px;
+  padding-top: 55px;
+  padding-bottom: 55px;
   font-size: 50px;
   background-position: center;
   background-size: cover;
@@ -495,4 +493,11 @@ animation-direction: alternate;
 
 .hidden-text {
   display: none;
+}
+
+
+#count {
+  padding-top: 50px;
+  margin-bottom: -45px;
+   font-size: 25px;
 }

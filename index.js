@@ -159,6 +159,7 @@ $("#skills-list span").click(function(e) {
    $(".rotate_encourangement").removeClass("rotate_encourangement");
    $(".you-win-area-bottom span").html("Skills").addClass("shimmer");
    changeFireworks();
+   startClock();
 	}
 });
 
@@ -172,6 +173,26 @@ function changeFireworks() {
      $(".you-win-area-top").addClass("background-blue-top");
      $(".you-win-area-bottom").addClass("background-blue-bottom");
  }, 6000)
+}
+
+//startClock countdown after fireworks
+function startClock(){
+   var counter = 6;
+   setInterval(function() {
+     counter--;
+      if (counter >= 0) {
+         span = document.getElementById("count");
+         span.innerHTML = counter + '!';
+      }
+      if (counter === 1) {
+         span = document.getElementById("count");
+         span.innerHTML = 'OH MY GOD';
+       }
+       if (counter === 0) {
+          span = document.getElementById("count");
+          span.innerHTML = '';
+        }
+     }, 1000);
 }
 
 //rotate words for skills page
