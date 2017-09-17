@@ -182,7 +182,8 @@ function startClock(){
      counter--;
       if (counter >= 0) {
          span = document.getElementById("count");
-         span.innerHTML = counter + '!';
+         span.innerHTML = counter;
+        //  span.innerHTML = counter + '!';
       }
       if (counter === 1) {
          span = document.getElementById("count");
