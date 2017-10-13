@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="./assets/faviconGetSwift.ico">
+
+  <title>GetSwift</title>
+  <link href="stylesheet-getswift.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <nav class="main-nav">
+
+      <ul class="navbar">
+
+        <a href="">
+          <img class="logo" height="32"
+          src="assets/get_swift_logo.png">
+        </a>
+
+        <li><a href="#+add">+ADD</a></li>
+        <li><a href="#map">MAP</a></li>
+        <li><a href="#reports">REPORTS</a></li>
+
+        <li>
+          <div class="hamburger" onclick="toggleHamburger(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </li>
+
+      </ul>
+    </nav>
+
+
+    <article class="content">
+
+      <div id="options" class="sideCard">
+        OPTIONS
+      </div>
+
+    </article>
+
+    <aside class="side">
+
+      <ul class="sideList">
+        <li>
+          <input id="search" type="search" placeholder="search" />
+        </li>
+
+        <li id="menu" class="sideCard">MENU</li>
+
+        <li id="allDrivers" class="sideCard">
+
+          <div class="sideCardHeader">
+            ALL DRIVERS (1)
+          </div>
+
+          <div class="drivers">
+
+            <img src="./assets/driver_image.png" alt="driver image">
+
+            <div class="red">
+              <strong>
+                JOSH SMITH
+              </strong>
+            </div>
+
+            <div class="available justifyEnd">
+              <strong>
+                AVAILABLE IN
+              </strong>
+            </div>
+
+            <div></div>
+            <div class="normText">1 jobs</div>
+            <div class="normText justifyEnd">19 mins</div>
+          </div>
+        </li>
+
+
+        <li id="allJobs" class="sideCard">
+          <div class="sideCardHeader">
+            ALL JOBS (1)
+          </div>
+
+          <div class="jobs">
+
+            <div class="normText">
+              2244308
+            </div>
+
+            <div class="red justifyEnd">
+              <strong>
+                EN ROUTE
+              </strong>
+            </div>
+
+            <div></div>
+            <div></div>
+
+            <div class="reddish">
+              NYC Warehouse
+            </div>
+
+            <div></div>
+
+            <div class="green">
+              <strong>
+                Jonathan Rosham
+              </strong>
+            </div>
+
+            <div></div>
+
+            <div class="">
+              Due 10 days ago
+            </div>
+
+            <div class="justifyEnd">
+              <img src="./assets/alarm-clock-16.png" alt="alarm clock">
+            </div>
+
+          </div>
+
+        </li>
+      </ul>
+    </aside>
+
+  </div>
+
+  <script type="text/javascript" src="getswift.js"></script>
+
+</body>
+</html>
