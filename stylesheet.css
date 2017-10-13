@@ -387,11 +387,30 @@ animation-direction: alternate;
   color: white;
 }
 
+.white-X {
+  color: white;
+}
+
+/*no border around hamburger icon*/
+.navbar-inverse .navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+/*hambuger turns to X when clicked*/
+.navbar-toggler>.close {
+  display:inline;
+}
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+  display:none;
+}
+/*toggling hamburger to X*/
 
 /* screen size changing image, below */
 
 /*small*/
 @media screen and (max-width: 767px) {
+
   .background-data-web-gif {
     background: url(assets/data-web-gif.gif);
     /* ---on small screens above is background, not background-image--- */
