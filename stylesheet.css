@@ -416,8 +416,8 @@ animation-direction: alternate;
 @media screen and (max-width: 767px) {
 
   .work-demo-gif {
-    padding-left: 0!important;
-    padding-right: 0!important;
+    margin-left: -15px;
+    /* this is to override the 15px padding added by the container */
   }
 
   .background-data-web-gif {
