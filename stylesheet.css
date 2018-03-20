@@ -415,6 +415,11 @@ animation-direction: alternate;
 /*small*/
 @media screen and (max-width: 767px) {
 
+  .work-demo-gif {
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+
   .background-data-web-gif {
     background: url(assets/data-web-gif.gif);
     /* ---on small screens above is background, not background-image--- */
