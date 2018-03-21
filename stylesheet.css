@@ -20,77 +20,77 @@ body {
 /*parallax effect*/
 
 .background {
-    width: 100%;
-    height: 100%;
-    background-attachment: fixed;
-    /*fixed background-attachment is what gives the image the parallax effect*/
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: black;
-    min-height: 550px;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  /*fixed background-attachment is what gives the image the parallax effect*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  min-height: 550px;
 }
 
 .background-data-web-gif {
-    background-image: url(assets/data-web-gif.gif);
+  background-image: url(assets/data-web-gif.gif);
 }
 
 .background-white-on-black-data-gif {
-    background-image: url(assets/white-on-black-data-gif.gif);
+  background-image: url(assets/white-on-black-data-gif.gif);
 }
 
 .background-data-lady-glitch-gif {
-    background-image: url(assets/data-lady-glitch-gif.gif);
+  background-image: url(assets/data-lady-glitch-gif.gif);
 }
 
 /*next*/
 
 .background-forrest {
-    background-image: url(assets/forrest.jpg);
+  background-image: url(assets/forrest.jpg);
 }
 
 .background-forrest-upside-down {
-    background-image: url(assets/forrest-upside-down.jpg);
+  background-image: url(assets/forrest-upside-down.jpg);
 }
 
 .background-clouds-gif {
-    background-image: url(assets/clouds-gif.gif);
+  background-image: url(assets/clouds-gif.gif);
 }
 
 /*next*/
 
 .background-oh-my-god-glitch-gif {
-    background-image: url(assets/oh-my-god-glitch-gif.gif);
+  background-image: url(assets/oh-my-god-glitch-gif.gif);
 }
 
 .background-tearing-colors-gif {
-    background-image: url(assets/tearing-colors-gif.gif);
+  background-image: url(assets/tearing-colors-gif.gif);
 }
 
 /*next*/
 
 .background-underwater-gif {
-    background-image: url(assets/underwater-gif.gif);
+  background-image: url(assets/underwater-gif.gif);
 }
 
 .background-pool-gif {
-    background-image: url(assets/pool-gif.gif);
+  background-image: url(assets/pool-gif.gif);
 }
 
 .background-purple-jellyfish-gif {
-    background-image: url(assets/purple-jellyfish-gif.gif);
+  background-image: url(assets/purple-jellyfish-gif.gif);
 }
 
 /*next*/
 
 .background-drought {
-    background-image: url(assets/drought.jpg);
+  background-image: url(assets/drought.jpg);
 }
 
 /* default skills image */
 
 .background-school-of-fish-gif {
-    background-image: url(assets/school-of-fish-gif.gif);
+  background-image: url(assets/school-of-fish-gif.gif);
 }
 
 /* after clicking all skills */
@@ -137,15 +137,15 @@ body {
 }
 
 @-webkit-keyframes shimmer {
-    0% {
-        background-position: -4rem top; /*50px*/
-    }
-    70% {
-        background-position: 15.5rem top; /*~240px*/
-    }
-    100% {
-        background-position: 15.5rem top; /*~240px*/
-    }
+  0% {
+    background-position: -4rem top; /*50px*/
+  }
+  70% {
+    background-position: 15.5rem top; /*~240px*/
+  }
+  100% {
+    background-position: 15.5rem top; /*~240px*/
+  }
 }
 
 
@@ -167,15 +167,15 @@ body {
 }
 
 @-webkit-keyframes shimmer {
-    0% {
-        background-position: -4rem top; /*50px*/
-    }
-    70% {
-        background-position: 15.5rem top; /*~240px*/
-    }
-    100% {
-        background-position: 15.5rem top; /*~240px*/
-    }
+  0% {
+    background-position: -4rem top; /*50px*/
+  }
+  70% {
+    background-position: 15.5rem top; /*~240px*/
+  }
+  100% {
+    background-position: 15.5rem top; /*~240px*/
+  }
 }
 
 
@@ -183,9 +183,9 @@ body {
 
 /* explosion onclick */
 /*.explode {
-  width: 100px;
-  height: 100px;
-  background: red;
+width: 100px;
+height: 100px;
+background: red;
 }*/
 /*explosion on click above*/
 
@@ -203,17 +203,17 @@ body {
 
 #profile-pic::after{
   content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    background-image: url("assets/profile_pic_Ethan_Ryan.jpg");
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    background-size: cover;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-image: url("assets/profile_pic_Ethan_Ryan.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
 }
 
 @keyframes profile-pic-change {
@@ -232,11 +232,11 @@ body {
 }
 
 #profile-pic::after {
-animation-name: profile-pic-change;
-animation-timing-function: ease-in-out;
-animation-iteration-count: infinite;
-animation-duration: 10s;
-animation-direction: alternate;
+  animation-name: profile-pic-change;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
 }
 
 
@@ -307,38 +307,38 @@ animation-direction: alternate;
 }
 
 /* Pulse Grow */
- @-webkit-keyframes pulse-grow {
-    to {
-        -webkit-transform: scale(1.3);
-        transform: scale(1.3);
-    }
+@-webkit-keyframes pulse-grow {
+  to {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
 }
 @keyframes pulse-grow {
-    to {
-        -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
-    }
+  to {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+  }
 }
 .pulse-grow {
-    display: inline-block;
-    -webkit-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 /*.pulse-grow:hover {*/
 .pulse-grow {
-    -webkit-animation-name: pulse-grow;
-    animation-name: pulse-grow;
-    -webkit-animation-duration: 0.3s;
-    animation-duration: 0.3s;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
+  -webkit-animation-name: pulse-grow;
+  animation-name: pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
 
 /* forcing no padding in list columns */
@@ -368,21 +368,21 @@ animation-direction: alternate;
 
 /* colorful-text changes color */
 .colorful-text {
-    height: 100%;
-    position: relative;
-    animation-name: colorful-text; /*references animation below*/
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+  height: 100%;
+  position: relative;
+  animation-name: colorful-text; /*references animation below*/
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 
 
 /*this just changes color of colorful-text, no motion */
 @keyframes colorful-text {
-    0%   {color:black; }
-    25%  {color:yellow; background-color: purple;}
-    50%  {color:orange; background-color: blue;}
-    75%  {color:purple; background-color: yellow;}
-    100% {color:red; }
+  0%   {color:black; }
+  25%  {color:yellow; background-color: purple;}
+  50%  {color:orange; background-color: blue;}
+  75%  {color:purple; background-color: yellow;}
+  100% {color:red; }
 }
 
 
@@ -416,6 +416,8 @@ animation-direction: alternate;
 @media screen and (max-width: 767px) {
 
   .work-demo-gif {
+    border-radius: 0%;
+    /* overridding border-radius from .rounded */
     margin-left: -15px;
     /* this is to override the 15px padding added by the container */
   }
@@ -427,76 +429,76 @@ animation-direction: alternate;
   }
 
   .background-white-on-black-data-gif {
-      background: url(assets/white-on-black-data-gif.gif);
-      /* ---on small screens above is background, not background-image--- */
-      background-size: cover;
-      min-height: 350px;
-      /*max-height: 200px;*/
+    background: url(assets/white-on-black-data-gif.gif);
+    /* ---on small screens above is background, not background-image--- */
+    background-size: cover;
+    min-height: 350px;
+    /*max-height: 200px;*/
   }
 
   .background-data-lady-glitch-gif {
-      background: url(assets/data-lady-glitch-gif.gif);
-      /* ---on small screens above is background, not background-image--- */
-      background-size: cover;
-      height: 260px;
-      /*max-height: 360px;*/
-      background-repeat: no-repeat;
-      background-position: center;
-      background-color: pink;
-      background-repeat: no-repeat;
+    background: url(assets/data-lady-glitch-gif.gif);
+    /* ---on small screens above is background, not background-image--- */
+    background-size: cover;
+    height: 260px;
+    /*max-height: 360px;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: pink;
+    background-repeat: no-repeat;
   }
 
   .background-oh-my-god-glitch-gif {
-      background: url(assets/oh-my-god-glitch-gif.gif);
-      min-height: 350px;
-      background-size: cover;
+    background: url(assets/oh-my-god-glitch-gif.gif);
+    min-height: 350px;
+    background-size: cover;
   }
 
   .background-tearing-colors-gif {
-      background: url(assets/tearing-colors-gif.gif);
-      min-height: 350px;
-      background-size: cover;
+    background: url(assets/tearing-colors-gif.gif);
+    min-height: 350px;
+    background-size: cover;
   }
 
   .background-forrest {
-      background: url(assets/forrest.jpg);
-      min-height: 350px;
-      background-size: cover;
+    background: url(assets/forrest.jpg);
+    min-height: 350px;
+    background-size: cover;
   }
 
   .background-forrest-upside-down {
-      background: url(assets/forrest-upside-down.jpg);
-      min-height: 350px;
-      background-size: cover;
+    background: url(assets/forrest-upside-down.jpg);
+    min-height: 350px;
+    background-size: cover;
   }
 
   .background-clouds-gif {
-      background: url(assets/clouds-gif.gif);
-      min-height: 350px;
-      background-size: cover;
+    background: url(assets/clouds-gif.gif);
+    min-height: 350px;
+    background-size: cover;
   }
 
   .background-underwater-gif {
-      background: url(assets/underwater-gif.gif);
-      min-height: 350px;
-      background-size: cover;
+    background: url(assets/underwater-gif.gif);
+    min-height: 350px;
+    background-size: cover;
   }
 
   .background-pool-gif {
-      background: url(assets/pool-gif.gif);
-      min-height: 350px;
-      background-size: cover;
+    background: url(assets/pool-gif.gif);
+    min-height: 350px;
+    background-size: cover;
   }
 
   .background-purple-jellyfish-gif {
-      background: url(assets/purple-jellyfish-gif.gif);
-      background-size: cover;
+    background: url(assets/purple-jellyfish-gif.gif);
+    background-size: cover;
   }
 
   .background-drought {
-      background: url(assets/drought.jpg);
-      min-height: 350px;
-      background-size: cover;
+    background: url(assets/drought.jpg);
+    min-height: 350px;
+    background-size: cover;
   }
 
   #skills-list {
@@ -527,5 +529,5 @@ animation-direction: alternate;
 #count {
   padding-top: 50px;
   margin-bottom: -45px;
-   font-size: 25px;
+  font-size: 25px;
 }
