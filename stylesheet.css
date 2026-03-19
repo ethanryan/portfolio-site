@@ -417,9 +417,10 @@ background: red;
 
   .work-demo-gif {
     border-radius: 0%;
-    /* overridding border-radius from .rounded */
-    margin-left: -15px;
-    /* this is to override the 15px padding added by the container */
+    /* overriding border-radius from .rounded */
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
   }
 
   .background-data-web-gif {
