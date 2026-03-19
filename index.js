@@ -178,20 +178,18 @@ function changeFireworks() {
 //startClock countdown after fireworks
 function startClock(){
    var counter = 6;
-   setInterval(function() {
+   var intervalId = setInterval(function() {
      counter--;
+     var span = document.getElementById("count");
       if (counter >= 0) {
-         span = document.getElementById("count");
          span.innerHTML = counter;
-        //  span.innerHTML = counter + '!';
       }
       if (counter === 1) {
-         span = document.getElementById("count");
          span.innerHTML = 'OH MY GOD';
        }
        if (counter === 0) {
-          span = document.getElementById("count");
           span.innerHTML = '';
+          clearInterval(intervalId);
         }
      }, 1000);
 }
