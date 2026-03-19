@@ -166,21 +166,6 @@ body {
   -webkit-background-size: 4rem 100%; /*50px*/
 }
 
-@-webkit-keyframes shimmer {
-  0% {
-    background-position: -4rem top; /*50px*/
-  }
-  70% {
-    background-position: 15.5rem top; /*~240px*/
-  }
-  100% {
-    background-position: 15.5rem top; /*~240px*/
-  }
-}
-
-
-
-
 /* explosion onclick */
 /*.explode {
 width: 100px;
@@ -248,7 +233,6 @@ background: red;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: black;
   min-height: 350px;
 }
 
@@ -417,9 +401,10 @@ background: red;
 
   .work-demo-gif {
     border-radius: 0%;
-    /* overridding border-radius from .rounded */
-    margin-left: -15px;
-    /* this is to override the 15px padding added by the container */
+    /* overriding border-radius from .rounded */
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
   }
 
   .background-data-web-gif {
@@ -445,7 +430,6 @@ background: red;
     background-repeat: no-repeat;
     background-position: center;
     background-color: pink;
-    background-repeat: no-repeat;
   }
 
   .background-oh-my-god-glitch-gif {
